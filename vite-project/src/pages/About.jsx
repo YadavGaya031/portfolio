@@ -3,8 +3,9 @@ import React from 'react'
 const About = () => {
   return (
     <>
-        <div className='h-screen w-full bg-[#303030] '>
-            <h1 className='text-9xl text-white font-bold ml-20 pt-10 tracking-tight px-10 '>
+        <div className='h-auto w-full bg-[#303030] '>
+            <h1 className='text-4xl sm:text-6xl md:text-8xl text-white font-bold py-10 tracking-tight px-5 sm:px-10 text-center md:text-left'>
+
                 you can get in touch<br />with me via{' '}
 
                 <a href="mailto:singhgaya031@gmail.com" target="_blank" rel="noopener noreferrer"

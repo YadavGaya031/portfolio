@@ -85,26 +85,26 @@ const Buttons = () => {
 
   return (
     <div
-      ref={containerRef}
-      className='w-full bg-gradient-to-r from-[#1B1B1D] via-[#18191B] to-[#0F0F12] flex justify-center items-center gap-10 py-10'
-    >
-      <div ref={leftBtn}>
-        <CustomButton1 variant="contained" href="https://www.instagram.com/gaya.ejs/">
-          Say Hi &nbsp;<MdWavingHand />
-        </CustomButton1>
-      </div>
+    ref={containerRef}
+    className='w-full bg-gradient-to-r from-[#1B1B1D] via-[#18191B] to-[#0F0F12] flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 py-10'
+  >
+    <div ref={leftBtn}>
+      <CustomButton1 variant="contained" href="https://www.instagram.com/gaya.ejs/">
+        Say Hi &nbsp;<MdWavingHand />
+      </CustomButton1>
+    </div>
 
-      <div ref={midBtn}>
-        <CustomButton2 variant="contained" href="https://github.com/YadavGaya031" target="_blank" rel="noopener noreferrer">
-          Watch My Repo &nbsp;<FaGithub />
-        </CustomButton2>
-      </div>
+       <div ref={midBtn}>
+      <CustomButton2 variant="contained" href="https://github.com/YadavGaya031" target="_blank" rel="noopener noreferrer">
+        Watch My Repo &nbsp;<FaGithub />
+      </CustomButton2>
+    </div>
 
       <div ref={rightBtn}>
-        <CustomButton1 variant="contained" href="https://drive.google.com/file/d/1KoDvUnFD3QAvZXN4NIqM43h5UC2wfVJ_/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-          Get my Resume &nbsp;<IoMdDocument />
-        </CustomButton1>
-      </div>
+      <CustomButton1 variant="contained" href="https://drive.google.com/file/d/1KoDvUnFD3QAvZXN4NIqM43h5UC2wfVJ_/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        Get my Resume &nbsp;<IoMdDocument />
+      </CustomButton1>
+    </div>
     </div>
   );
 };

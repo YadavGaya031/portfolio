@@ -18,12 +18,21 @@ const MouseFollower = () => {
       const angle = Math.atan2(dy, dx) * (180 / Math.PI);
       const skewAmount = Math.min(Math.sqrt(dx * dx + dy * dy) * 0.2, 20);
 
-      gsap.set(follower, {
+      // gsap.set(follower, {
+      //   x: pos.current.x,
+      //   y: pos.current.y,
+      //   rotation: angle,
+      //   skewX: skewAmount,
+      // });
+
+      gsap.to(follower, {
+        duration: 0.3,
         x: pos.current.x,
         y: pos.current.y,
         rotation: angle,
         skewX: skewAmount,
-      });
+        ease: "power2.out",
+      })
 
       requestAnimationFrame(move);
     };
