@@ -58,7 +58,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='navbar fixed top-0 left-0 w-full h-16 flex justify-end items-center px-20 mt-8 bg-opacity-90 z-50'>
+    <div className='navbar fixed top-0 left-0 w-full h-16 flex justify-end items-center px-5 md:px-20 mt-8 bg-opacity-90 z-50'>
       <img id="logo" className='h-10 w-12' src={logo} alt="Logo" />
     </div>
   );

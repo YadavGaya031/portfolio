@@ -13,7 +13,7 @@ const Table = () => {
   return (
     <>
       <div className="h-auto w-full bg-[#222222] px-4 md:px-20 py-10">
-        <h1 className="text-6xl font-bold text-white mb-10">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-10">
           Watch my <span className="text-yellow-400">more</span> artwork
         </h1>
 
