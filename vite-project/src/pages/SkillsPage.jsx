@@ -157,7 +157,7 @@ const SkillsPage = () => {
         design
       </h3>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-8 mr-5 pb-5 px:5 md:px-20">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-8 mr-5 pb-5 px-5 md:px-20">
         {designlogo.map((logo, index) => (
           <div
             key={index}
